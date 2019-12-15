@@ -1,0 +1,15 @@
+{
+  "name": "contacto",
+  "version": "1.0.0",
+  "description": "A command line contact management system",
+  "main": "index.js",
+  "author": "Jimil Desai",
+  "license": "MIT",
+  "preferGlobal": true,
+    "bin":"./contact.js",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "inquirer": "^7.0.0",
+    "mongoose": "^5.8.1"
+  }
+}
